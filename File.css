@@ -1,0 +1,102 @@
+.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black; height:auto; width:100%;font-size:10px;}
+p{text-align:justify;}
+h1{text-align:center; font-size:18px;}
+h2{font-size: 16px;}
+.cho {text-align:justify;}
+.cho > span{color: blue; background-color:lightgrey;font-size:12px;display:inline;}
+.coba{text-align:center; font-size:8px; color:red;}
+iframe{box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.color_h1{color: salmon;}
+div.example p {
+    margin-top:5px;
+}
+div.example {
+    width:auto;
+    color:#000000;
+    background-color:#f1f1f1;
+    padding:8px 8px 8px 8px;
+    line-height: 1.15em;
+    word-wrap: break-word;
+    margin-bottom:8px;
+    margin-top:8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.example h2 {
+	color: blue;
+	font-size: 16px;
+}
+div.example p {
+	color: red;
+	font-size: 14px;
+	text-align: justify;
+}
+div.example_code {
+    width:auto;
+    background-color:#ffffff;
+    padding:1.1%;
+    border-left:4px solid #888888;
+    word-wrap: break-word;
+}
+div.example_result {
+    width:auto;
+    background-color:#ffffff;
+    padding:1.1%;
+    xborder-radius:4px;
+}
+div.code {
+    width:auto;
+    border:1px solid #dddddd;
+    background-color:#f1f1f1;
+    color:#444444;
+    padding:1.1%;
+    margin:0;
+    word-wrap: break-word;
+    margin-bottom:12px;
+}
+div.code:after {
+    content:"";
+    clear:both;
+    display:block;
+}
+div.example_code, div.code, div.code div {
+      font-face="monospace";
+      color: green;
+      font-size: 13px;
+}
+.highCOM {color:green;}
+.highELE {color:brown;}
+.highATT {color:crimson;}
+.highATT {color:red;}
+.highVAL {color:mediumblue;}
+.highGLB {color:#CC9900;}
+.highLT, .highGT {color:blue;}
+
+table.reference {
+      width:100%;
+      max-width:100%;
+      border:1px solid #dddddd;
+}
+table.reference>thead>tr>th, table.reference>tbody>tr>th, table.reference>tfoot>tr>th, table.reference>thead>tr>td, table.reference>tbody>tr>td, table.reference>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+table.reference tr:nth-child(odd)   {background-color:#ffffff;}
+table.reference tr:nth-child(even)  {background-color:#f1f1f1;}
+table.lamp {
+    width:100%;
+    padding:0px;
+    border:1px solid #d4d4d4;
+}
+table.lamp th {
+    color:#000000;
+    background-color:white;
+    padding:10px;
+    padding-right:5px;
+}
+table.lamp td {
+    padding:4px;
+    padding-left:0px;
+    padding-right:10px;
+    background-color:#ffffff;
+}
